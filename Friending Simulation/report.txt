@@ -1,0 +1,39 @@
+AmigoNet 2.0 Feedback
+
+name: Jeff DeSain
+login ID: jed1321
+
+
+What did you learn?
+thing** can be a double array of things, an array of thing pointers or a pointer to a thing array. Even if they're the same in memory, it's important to think about and acknowledge what structure you're working with.
+
+
+
+How many hours did you work on this project?
+~14
+
+
+How many hours did you originally estimate you would need for this project?
+~8
+
+
+
+What was easy about this assignment?
+Not a whole lot, to be honest.
+
+
+
+What gave you problems/troubles?
+Making sure to free all of the pointers
+
+
+
+What can the instructor do to improve this assignment?
+More guidence on what to use for a user struct would've been helpful.
+
+
+
+What would you have liked to do in this assignment?
+Use an OO language.
+
+

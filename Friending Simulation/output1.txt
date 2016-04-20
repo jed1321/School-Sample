@@ -1,0 +1,186 @@
+testIntStr()...
+Success, put returned correct old value for a key upon update!
+Size: 16
+Capacity: 32
+Collisions: 4
+Rehashes: 1
+0: 160 : one hundred sixty
+1: null
+2: 130 : one hundred thirty
+3: null
+4: 100 : one hundred
+5: null
+6: 70 : seventy
+7: null
+8: 40 : forty
+9: null
+10: 10 : TEN
+11: null
+12: 140 : one hundred forty
+13: null
+14: 110 : one hundred ten
+15: null
+16: 80 : eighty
+17: null
+18: 50 : fifty
+19: null
+20: 20 : twenty
+21: null
+22: 150 : one hundred fifty
+23: null
+24: 120 : one hundred twenty
+25: null
+26: 90 : ninety
+27: null
+28: 60 : sixty
+29: null
+30: 30 : thirty
+31: null
+has(10)? 1
+has(20)? 1
+has(30)? 1
+has(40)? 1
+has(50)? 1
+has(60)? 1
+has(70)? 1
+has(80)? 1
+has(90)? 1
+has(100)? 1
+has(110)? 1
+has(120)? 1
+has(130)? 1
+has(140)? 1
+has(150)? 1
+has(160)? 1
+has(0)? 0
+get(10): TEN
+get(20): twenty
+get(30): thirty
+get(40): forty
+get(50): fifty
+get(60): sixty
+get(70): seventy
+get(80): eighty
+get(90): ninety
+get(100): one hundred
+get(110): one hundred ten
+get(120): one hundred twenty
+get(130): one hundred thirty
+get(140): one hundred forty
+get(150): one hundred fifty
+get(160): one hundred sixty
+key: 160, found!
+key: 130, found!
+key: 100, found!
+key: 70, found!
+key: 40, found!
+key: 10, found!
+key: 140, found!
+key: 110, found!
+key: 80, found!
+key: 50, found!
+key: 20, found!
+key: 150, found!
+key: 120, found!
+key: 90, found!
+key: 60, found!
+key: 30, found!
+value: one hundred sixty, found!
+value: one hundred thirty, found!
+value: one hundred, found!
+value: seventy, found!
+value: forty, found!
+value: TEN, not found!
+value: one hundred forty, found!
+value: one hundred ten, found!
+value: eighty, found!
+value: fifty, found!
+value: twenty, found!
+value: one hundred fifty, found!
+value: one hundred twenty, found!
+value: ninety, found!
+value: sixty, found!
+value: thirty, found!
+Size: 16
+Capacity: 32
+Collisions: 5
+Rehashes: 1
+testStrInt()...
+Size: 16
+Capacity: 32
+Collisions: 6
+Rehashes: 1
+0: null
+1: null
+2: null
+3: null
+4: null
+5: one hundred forty : 140
+6: sixty : 60
+7: fifty : 50
+8: null
+9: thirty : 30
+10: null
+11: null
+12: ten : 10
+13: null
+14: null
+15: eighty : 80
+16: twenty : 20
+17: one hundred : 100
+18: one hundred sixty : 160
+19: seventy : 70
+20: one hundred fifty : 150
+21: one hundred thirty : 130
+22: null
+23: null
+24: one hundred ten : 110
+25: forty : 40
+26: null
+27: null
+28: ninety : 90
+29: one hundred twenty : 120
+30: null
+31: null
+has(ten)? 1
+has(twenty)? 1
+has(thirty)? 1
+has(forty)? 1
+has(fifty)? 1
+has(sixty)? 1
+has(seventy)? 1
+has(eighty)? 1
+has(ninety)? 1
+has(one hundred)? 1
+has(one hundred ten)? 1
+has(one hundred twenty)? 1
+has(one hundred thirty)? 1
+has(one hundred forty)? 1
+has(one hundred fifty)? 1
+has(one hundred sixty)? 1
+has(missing)? 0
+get(ten): 10
+get(twenty): 20
+get(thirty): 30
+get(forty): 40
+get(fifty): 50
+get(sixty): 60
+get(seventy): 70
+get(eighty): 80
+get(ninety): 90
+get(one hundred): 100
+get(one hundred ten): 110
+get(one hundred twenty): 120
+get(one hundred thirty): 130
+get(one hundred forty): 140
+get(one hundred fifty): 150
+get(one hundred sixty): 160
+Size: 16
+Capacity: 32
+Collisions: 10
+Rehashes: 1
+testStress()...
+Size: 99997
+Capacity: 262144
+Collisions: 384790
+Rehashes: 14
